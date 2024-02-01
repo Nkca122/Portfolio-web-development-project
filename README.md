@@ -1,2 +1,2 @@
-# github demo
-My 1st github repository
+# My portfolio
+/this is the code to my portfolios homepage
