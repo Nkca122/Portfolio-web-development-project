@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="title.ico" type="image/x-icon"/>
+    <title>Homepage</title>
 </head>
 <body>
-    <h1>This is a test</h1>
+    <header>
+        <div id="header">
+            <div id="logo-div">
+                 <img src="logo-final.png" id="logo">
+            </div>
+            <div id="table">
+                <div id="info-resume-div">
+                    <div id="info"><i class="fa-solid fa-circle-question icon"></i><a class="link" href="">Info</a></div>
+                    <div id="resume"><i class="fa-solid fa-download icon"></i><a class="link" href="">My resume</a></div>
+            </div>
+            <div id="menu-div">
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                <div id="menu">
+                    <button class="accordion"><i class="fa-solid fa-bars menu-icon"></i></button>
+                    <div class="panel">
+                        <div><button class="menu-item" id="education">Educational qualifications</button></div>
+                        <hr>
+                        <div><button class="menu-item" id="projects">My projects</button></div>
+                        <hr>
+                        <div><button class="menu-item" id="events">Events and participation</button></div>  
+                    </div>
+                </div>
+            </div>
+           
+                
+            </div>
+    </div>
+    </header>
+
+    <div id="social-div">
+        <div class="social"><a href="https://www.instagram.com/nikunj_chauhan_2005/" target="main"><i class="fa-brands fa-instagram"></i></a></div>
+        <div class="social"><a href="https://www.linkedin.com/in/nikunj-chauhan-9781832b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BABgNGocpQGe8yXZlwMjFUw%3D%3D" target="main"><i class="fa-brands fa-linkedin"></i></a></div>
+        <div class="social"><a href=""><i class="fa-brands fa-github"></i></a></div>
+    </div>
+
+<main>
+<div id="particles-js">
+    <div id="content">
+        <div id="pic-div"><img src=""></div>
+        <div id="para-div">
+        <p>I am Nikunj Chauhan, currently a student and willing to free lance on the side for various projects related to the following fields
+        </p>
+        <div id="list">
+            <ol>
+                <li>Web development : Frontend</li>
+                <li>Data structure analysis</li>
+                <li>App development</li>
+            </ol>
+        </div>
+    </div>
+
+        <footer><div id="content-footer"><i class="fa-solid fa-arrow-up"></i><p>Check the menu</p></div></footer>
+    </div>
+</div>
+</main>
+
+<footer>
+    <div id="footer-div">
+        <div id="footer-pic"><img src="logo-final.png"></div>
+        <div id="copy"><i class="fa-regular fa-copyright"></i><p>nkca122@gmail.com</p></div>
+    </div>
+</footer>
+    
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="menu.js"></script>
 </body>
 </html>
